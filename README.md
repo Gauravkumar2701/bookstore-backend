@@ -5,15 +5,22 @@
 # Getting started
 - Clone the repository
 ```
-git clone  <git lab template url> <project_name>
+git clone https://github.com/Gauravkumar2701/bookstore-backend
 ```
 - Install dependencies
 ```
-cd <project_name>
+cd bookstore-backend
 npm install
 ```
 - Build and run the project
 ```
 npm start
 ```
-  Navigate to `http://localhost:8001`
+- Create the .evn file before staring the server.
+```
+  mongoDBURL=<your url>
+  Port=<Port number on which you watn to run the server>
+
+```
+
+Navigate to `http://localhost:your port`
